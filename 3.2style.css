@@ -1,0 +1,22 @@
+student {
+    display: block;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+name, age, course {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+age {
+    color: blue;
+}
+
+course {
+    color: green;
+}

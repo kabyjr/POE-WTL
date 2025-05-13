@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="5.2book.xsl"?>
+<library>
+    <book>
+        <title>Learning XML</title>
+        <author>Samix</author>
+        <year>2019</year>
+    </book>
+    <book>
+        <title>Advanced CSS</title>
+        <author>Av</author>
+        <year>2021</year>
+    </book>
+    <book>
+        <title>Introduction to XSLT</title>
+        <author>Saurabh</author>
+        <year>2018</year>
+    </book>
+</library>

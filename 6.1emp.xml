@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="6.2emp.xsl"?>
+<employees>
+    <employee>
+        <name>John Doe</name>
+        <designation>Software Engineer</designation>
+        <salary>75000</salary>
+    </employee>
+    <employee>
+        <name>Jane Smith</name>
+        <designation>Project Manager</designation>
+        <salary>90000</salary>
+    </employee>
+</employees>

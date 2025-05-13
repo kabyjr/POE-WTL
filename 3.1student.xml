@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<students>
+    <student>
+        <name>Aniket...</name>
+        <age>20</age>
+        <course>Computer Science</course>
+    </student>
+    <student>
+        <name>Samix...</name>
+        <age>22</age>
+        <course>Mechanical</course>
+    </student>
+</students>
