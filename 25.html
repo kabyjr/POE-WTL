@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Key Event Example</title>
+</head>
+<body>
+
+    <h2>Press any key to see the event details</h2>
+    <p id="output">Waiting for key press...</p>
+
+    <script>
+        document.addEventListener("keydown", function(event) {
+            document.getElementById("output").textContent = 
+                `Key: ${event.key}, Code: ${event.code}, KeyCode: ${event.keyCode}`;
+        });
+    </script>
+
+</body>
+</html>

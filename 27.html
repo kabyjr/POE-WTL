@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click Event Example</title>
+    <style>
+        #myButton {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: lightblue;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Click Event Example</h2>
+    <button id="myButton">Click Me</button>
+
+    <script>
+        document.getElementById("myButton").addEventListener("click", function() {
+            this.textContent = "Clicked!";
+            this.style.backgroundColor = "lightgreen";
+        });
+    </script>
+
+</body>
+</html>

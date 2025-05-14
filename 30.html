@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form Validation</title>
+</head>
+<body>
+
+    <h2>Form Validation</h2>
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter name"><br>
+        <input type="email" id="email" placeholder="Enter email"><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Stop form submission
+            
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+
+            if (!name || !email) {
+                alert("Please fill in both fields!");
+            } else {
+                alert("Form submitted successfully!");
+                this.reset(); // Clear the form
+            }
+        });
+    </script>
+
+</body>
+</html>

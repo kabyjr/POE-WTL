@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Focus Event Example</title>
+    <style>
+        input {
+            padding: 8px;
+            font-size: 16px;
+            border: 2px solid gray;
+        }
+        .focused {
+            border-color: blue;
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Focus Event Example</h2>
+    <input type="text" id="inputBox" placeholder="Click here to focus">
+
+    <script>
+        let inputBox = document.getElementById("inputBox");
+
+        // Focus event - when the input is selected
+        inputBox.addEventListener("focus", function() {
+            this.classList.add("focused");
+        });
+
+        // Blur event - when the input loses focus
+        inputBox.addEventListener("blur", function() {
+            this.classList.remove("focused");
+        });
+    </script>
+
+</body>
+</html>

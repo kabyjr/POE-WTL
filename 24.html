@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exception Handling in JavaScript</title>
+</head>
+<body>
+
+    <h2>Exception Handling Example</h2>
+    <button onclick="divideNumbers(10, 0)">Try Division</button>
+    
+    <script>
+        function divideNumbers(a, b) {
+            try {
+                if (b === 0) {
+                    throw new Error("Division by zero is not allowed.");
+                }
+                let result = a / b;
+                alert(`Result: ${result}`);
+            } catch (error) {
+                alert(`Error: ${error.message}`);
+            } finally {
+                console.log("Execution completed.");
+            }
+        }
+    </script>
+
+</body>
+</html>
