@@ -46,11 +46,11 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET["name"]) && isset($_GET["
     <input type="submit" value="Submit">
 </form>
 
-<!-- <?php
+?
 if (isset($_GET["name"])) {
     echo "<h2>Hello, " . htmlspecialchars($_GET["name"]) . "!</h2>";
 }
-?> -->
+// ?> -->
 
-</body>
-</html> -->
+<!-- </body>
+ </html>  -->

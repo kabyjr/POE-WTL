@@ -1,16 +1,19 @@
+<!-- 4. Design the XML structure for employee and display the values in tabular form using 
+XSLT  -->
+
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="employees.xsl"?>
+<?xml-stylesheet type="text/xsl" href="4.2emp.xsl"?>
 <employees>
     <employee>
         <id>101</id>
-        <name>Anuj...</name>
+        <name>Anuj</name>
         <designation>Software Engineer</designation>
         <salary>75000</salary>
     </employee>
 
     <employee>
         <id>102</id>
-        <name>Bhavesh...</name>
+        <name>Bhavesh</name>
         <designation>Project Manager</designation>
         <salary>90000</salary>
     </employee>

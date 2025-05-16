@@ -1,4 +1,5 @@
 // Define a JavaScript object representing a person
+
 let person = {
     firstName: "John",
     lastName: "Doe",

@@ -1,3 +1,5 @@
+<!--  12 Five function using php -->
+
 <?php
 // 1. strlen() - Get the length of a string
 $string = "Hello, Bayb...!";

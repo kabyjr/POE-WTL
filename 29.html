@@ -1,0 +1,21 @@
+<!-- 29. Write a program for windows event using JavaScript  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window Event Example</title>
+</head>
+<body>
+
+    <h2>Window Load Event Example</h2>
+    <p id="message">Waiting for the page to load...</p>
+
+    <script>
+        window.addEventListener("load", function() {
+            document.getElementById("message").textContent = "Page fully loaded!";
+        });
+    </script>
+
+</body>
+</html>
