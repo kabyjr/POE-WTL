@@ -1,3 +1,5 @@
+<!--  11.  Associative array using php -->
+
 <?php
 // Creating an associative array
 $student_marks = array(

@@ -1,4 +1,4 @@
- <!-- Write a program for uploading the file using $_FILES -->
+ <!--  16. Write a program for uploading the file using $_FILES -->
 
  <!DOCTYPE html>
 <html>

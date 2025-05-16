@@ -1,4 +1,4 @@
- <!-- Write a program for storing and retrieving values from the cookies using PHP -->
+ <!-- 18. Write a program for storing and retrieving values from the cookies using PHP -->
 
  <?php
 // Set a cookie with name and value, expires in 1 hour

@@ -1,4 +1,4 @@
-  <!-- Write a program for fetching the values from the database using select query. -->
+  <!--20.  Write a program for fetching the values from the database using select query. -->
 
   <?php
 // Database connection

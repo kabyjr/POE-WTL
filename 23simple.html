@@ -2,16 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JavaScript in HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Object Example</title>
 </head>
 <body>
-    <h1>Click the button to see a message</h1>
-    <button onclick="showMessage()">Click Me</button>
+
+    <h2>JavaScript Object Example</h2>
+    <p id="output"></p>
 
     <script>
-        function showMessage() {
-            alert("Hello! You clicked the button.");
-        }
+        // Defining a JavaScript object
+        let person = {
+            name: "John Doe",
+            age: 25,
+            city: "New York"
+        };
+
+        // Display object data in the HTML page
+        document.getElementById("output").innerHTML = 
+            "Name: " + person.name + "<br>" +
+            "Age: " + person.age + "<br>" +
+            "City: " + person.city;
     </script>
+
 </body>
 </html>
